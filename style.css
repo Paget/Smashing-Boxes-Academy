@@ -1,0 +1,165 @@
+*{
+  margin: 0 auto;
+}
+body {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+}
+.top-body {
+  padding: 40px 200px;
+  background-color: #eb1767;
+  color: white;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+}
+
+header {
+  background: #921a4a;
+  padding: 0.5em;
+}
+nav {
+  font-family:'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 14px;
+  float: right;
+  padding: 1.75em;
+}
+
+p {
+  font-size: 1.25em;
+  padding: 0.25em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.nav-bar li {
+  display:inline;
+  padding: 0 20px 0 0;
+}
+.nav-bar a {
+  color: white;
+
+}
+.equation {
+  background-color: #eb1767;
+  padding: 50px 50px;
+}
+
+.equation img {
+  margin: 0 auto;
+  display:block;
+}
+
+.what  {
+  color: white;
+  background: url("http://academy.smashingboxes.com/assets/timeline_bg-c6df24fc8cdea898ad4491ad758fdbe7.jpg");
+  width: auto;
+  height: auto;
+  padding: 75px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.apply {
+  font-size: 14px;
+  background-color: #921a4a;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  padding: 15px;
+  border: none;
+  margin-top: 40px;
+}
+.timeline {
+  background:white;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 400;
+  width: 700px;
+  height: auto;
+}
+.about {
+  color: #4c4c4e;
+}
+.about h1 {
+  padding-left: 50px;
+  margin-top: 20px;
+
+}
+.about p {
+  padding: 40px 125px;
+}
+.about a {
+  color: #eb1767;
+}
+
+.apply-today {
+  background-color: #f4f4f4;
+  padding: 40px;
+  width: auto;
+  margin: 0;
+}
+table {
+  margin: 20px auto;
+  padding: 10px;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+
+table th {
+  background-color: #999;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  width: 200px;
+  padding: 12px;
+}
+table td {
+  text-align: center;
+  padding: 20px;
+}
+.lower-buttons {
+  background: #EB1767;
+  border-radius: 5px;
+  color: #FFF;
+}
+.course {
+  color: #EB1767;
+
+}
+.contact-pink-section {
+  background: #EB1767;
+  color: #FFF;
+  float: right;
+  opacity: 0.9;
+  height: 350px;
+  padding: 15px;
+  width: 50%;
+
+}
+
+.contact-map-section {
+  background-clip: border-box;
+  background: url("http://academy.smashingboxes.com/assets/smashing_academy_map-af7e66d0b42cb911ae927a7e6e4ed9d1.png");
+  width: auto;
+  height: 350px;
+  padding: 15px;
+}
+.contact-pink-section li {
+  text-indent: -3em;
+  padding-left: 3em;
+}
+
+.mentors {
+  text-align: center;
+}
+
+.mentors h1 {
+  float: left;
+  padding-left: 50px;
+}
+
+.mentors ul {
+  clear: both;
+}
+
+.mentors li {
+  display: inline-block;
+
+}
