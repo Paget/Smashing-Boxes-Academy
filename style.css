@@ -1,9 +1,13 @@
 *{
   margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
+
 body {
   font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
 }
+
 .top-body {
   padding: 40px 200px;
   background-color: #eb1767;
@@ -14,12 +18,26 @@ body {
 header {
   background: #921a4a;
   padding: 0.5em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
+
+header img {
+  margin-left: 20px;
+}
+
 nav {
   font-family:'Gotham SSm A', 'Gotham SSm B', sans-serif;
   font-size: 14px;
   float: right;
   padding: 1.75em;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.25em;
 }
 
 p {
@@ -28,9 +46,15 @@ p {
   font-weight: 400;
   line-height: 1.7;
 }
+
+.top-body {
+  margin-top: 90px;
+}
 .nav-bar li {
   display:inline;
   padding: 0 20px 0 0;
+  text-decoration: none;
+
 }
 .nav-bar a {
   color: white;
@@ -54,6 +78,8 @@ p {
   padding: 75px;
   font-size: 1em;
   font-weight: 400;
+  background-attachment: fixed;
+  background-position: 100px;
 }
 
 .apply {
@@ -67,12 +93,20 @@ p {
   margin-top: 40px;
 }
 .timeline {
-  background:white;
-  padding: 0;
+  background:grey;
+  color: white;
   font-size: 1em;
-  font-weight: 400;
-  width: 700px;
+  margin: 0 auto;
+  width: auto;
   height: auto;
+}
+
+.timeline img {
+  background: white;
+}
+
+.timeline:hover {
+  background: #eb1767;
 }
 .about {
   color: #4c4c4e;
@@ -121,8 +155,8 @@ table td {
 }
 .course {
   color: #EB1767;
-
 }
+
 .contact-pink-section {
   background: #EB1767;
   color: #FFF;
@@ -131,7 +165,6 @@ table td {
   height: 350px;
   padding: 15px;
   width: 50%;
-
 }
 
 .contact-map-section {
@@ -141,6 +174,7 @@ table td {
   height: 350px;
   padding: 15px;
 }
+
 .contact-pink-section li {
   text-indent: -3em;
   padding-left: 3em;
@@ -161,5 +195,4 @@ table td {
 
 .mentors li {
   display: inline-block;
-
 }
